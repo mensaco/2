@@ -1,0 +1,1 @@
+npx tailwindcss -i ../Tailwind/tailwind.css -o ../css/styles.css

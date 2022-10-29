@@ -1,0 +1,208 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+Slate
+Gray
+Zinc
+Neutral
+Stone
+Red
+Orange
+Amber
+Yellow
+Lime
+Green
+Emerald
+Teal
+Cyan
+Sky
+Blue
+Indigo
+Violet
+Purple
+Fuchsia
+Pink
+Rose
+*/
+
+@layer base {
+    :root {
+        --tw-border-color: rgb(0 0 0 / 0.25);
+        --tw-shadow-color-2: rgb(0 0 0 / 0.50);
+
+        --tw-deftore-h: 210;
+        --tw-habitore-h: 190;
+        --tw-lidhore-h: 150;
+        --tw-kushtore-h: 120;
+        --tw-deshirore-h: 60;
+        --tw-urdherore-h: 360;
+        --tw-format-e-pashtjelluara-h: 240;
+        --tw-zgjedhimi-e-forma-h: 90;
+
+        --tw-deftore-title: hsl(var(--tw-deftore-h), 100%, 15%);
+        --tw-habitore-title: hsl(var(--tw-habitore-h), 100%, 15%);
+        --tw-lidhore-title: hsl(var(--tw-lidhore-h), 100%, 15%);
+        --tw-kushtore-title: hsl(var(--tw-kushtore-h), 100%, 15%);
+        --tw-deshirore-title: hsl(var(--tw-deshirore-h), 100%, 15%);
+        --tw-urdherore-title: hsl(var(--tw-urdherore-h), 100%, 15%);
+        --tw-format-e-pashtjelluara-title: hsl(var(--tw-format-e-pashtjelluara-h), 100%, 15%);
+        --tw-zgjedhimi-e-forma-title: hsl(var(--tw-zgjedhimi-e-forma-h), 100%, 15%);
+
+        --tw-deftore-g-from: hsl(var(--tw-deftore-h), 100%, 90%);
+        --tw-deftore-g-to: hsl(var(--tw-deftore-h), 100%, 95%);
+
+        --tw-habitore-g-from: hsl(var(--tw-habitore-h), 100%, 90%);
+        --tw-habitore-g-to: hsl(var(--tw-habitore-h), 100%, 95%);
+
+        --tw-lidhore-g-from: hsl(var(--tw-lidhore-h), 100%, 90%);
+        --tw-lidhore-g-to: hsl(var(--tw-lidhore-h), 100%, 95%);
+
+        --tw-kushtore-g-from: hsl(var(--tw-kushtore-h), 100%, 90%);
+        --tw-kushtore-g-to: hsl(var(--tw-kushtore-h), 100%, 95%);
+
+        --tw-deshirore-g-from: hsl(var(--tw-deshirore-h), 100%, 90%);
+        --tw-deshirore-g-to: hsl(var(--tw-deshirore-h), 100%, 95%);
+
+        --tw-urdherore-g-from: hsl(var(--tw-urdherore-h), 100%, 90%);
+        --tw-urdherore-g-to: hsl(var(--tw-urdherore-h), 100%, 95%);
+
+        --tw-format-e-pashtjelluara-g-from: hsl(var(--tw-format-e-pashtjelluara-h), 100%, 90%);
+        --tw-format-e-pashtjelluara-g-to: hsl(var(--tw-format-e-pashtjelluara-h), 100%, 95%);
+
+        --tw-zgjedhimi-e-forma-g-from: hsl(var(--tw-zgjedhimi-e-forma-h), 100%, 90%);
+        --tw-zgjedhimi-e-forma-g-to: hsl(var(--tw-zgjedhimi-e-forma-h), 100%, 95%);
+
+
+
+    }
+}
+
+@layer utilities {
+
+    .noselect {
+        -webkit-touch-callout: none;
+        /* iOS Safari */
+        -webkit-user-select: none;
+        /* Safari */
+        -khtml-user-select: none;
+        /* Konqueror HTML */
+        -moz-user-select: none;
+        /* Old versions of Firefox */
+        -ms-user-select: none;
+        /* Internet Explorer/Edge */
+        user-select: none;
+        /* Non-prefixed version, currently
+                                        supported by Chrome, Edge, Opera and Firefox */
+    }
+
+    .text-shadow {
+        text-shadow: 0px 0px 15px var(--tw-shadow-color);
+    }
+
+    .text-shadow-white {
+        text-shadow: 0px 0px 15px var(--tw-shadow-color-2);
+    }
+
+
+
+    .border-u {
+        @apply border-l border-r border-b border-[var(--tw-border-color)];
+    }
+
+    .border-n {
+        @apply border-l border-r border-t border-[var(--tw-border-color)];
+    }
+
+    .menyra>div {
+        @apply min-w-[21rem];
+    }
+
+    .menyra>div>div:nth-child(1) {
+        @apply text-white text-shadow-white p-1 border-n rounded-tl-lg rounded-tr-lg;
+    }
+
+    .menyra>div>div:nth-child(2) {
+        @apply grid grid-rows-3 grid-flow-col font-[500] border-u gap-3 p-3 rounded-bl-lg rounded-br-lg shadow-md text-shadow;
+    }
+
+    .menyra {
+        @apply grid sm:flex sm:flex-wrap gap-x-3 gap-y-5 text-center my-5;
+    }
+
+    /* child(1)  */
+
+    .deftore>div>div:nth-child(1) {
+        @apply bg-[var(--tw-deftore-title)];
+    }
+
+    .habitore>div>div:nth-child(1) {
+        @apply bg-[var(--tw-habitore-title)];
+    }
+
+    .lidhore>div>div:nth-child(1) {
+        @apply bg-[var(--tw-lidhore-title)];
+    }
+
+    .kushtore>div>div:nth-child(1) {
+        @apply bg-[var(--tw-kushtore-title)];
+    }
+
+    .deshirore>div>div:nth-child(1) {
+        @apply bg-[var(--tw-deshirore-title)];
+    }
+
+    .urdherore>div>div:nth-child(1) {
+        @apply bg-[var(--tw-urdherore-title)];
+    }
+
+    .format-e-pashtjelluara>div>div:nth-child(1) {
+        @apply bg-[var(--tw-format-e-pashtjelluara-title)];
+    }
+
+    .zgjedhimi-e-forma>div>div:nth-child(1) {
+        @apply bg-[var(--tw-zgjedhimi-e-forma-title)];
+    }
+
+
+    /* child(2)  */
+
+    .deftore>div>div:nth-child(2) {
+        @apply bg-gradient-to-b from-[var(--tw-deftore-g-from)] to-[var(--tw-deftore-g-to)] shadow-[var(--tw-deftore-g-to)];
+    }
+
+.habitore>div>div:nth-child(2) {
+        @apply bg-gradient-to-b from-[var(--tw-habitore-g-from)] to-[var(--tw-habitore-g-to)] shadow-[var(--tw-habitore-g-to)];
+    }
+
+.lidhore>div>div:nth-child(2) {
+        @apply bg-gradient-to-b from-[var(--tw-lidhore-g-from)] to-[var(--tw-lidhore-g-to)] shadow-[var(--tw-lidhore-g-to)];
+    }
+
+.kushtore>div>div:nth-child(2) {
+        @apply bg-gradient-to-b from-[var(--tw-kushtore-g-from)] to-[var(--tw-kushtore-g-to)] shadow-[var(--tw-kushtore-g-to)];
+    }
+
+.deshirore>div>div:nth-child(2) {
+        @apply bg-gradient-to-b from-[var(--tw-deshirore-g-from)] to-[var(--tw-deshirore-g-to)] shadow-[var(--tw-deshirore-g-to)];
+    }
+
+.urdherore>div>div:nth-child(2) {
+        @apply bg-gradient-to-b from-[var(--tw-urdherore-g-from)] to-[var(--tw-urdherore-g-to)] shadow-[var(--tw-urdherore-g-to)];
+    }
+
+.format-e-pashtjelluara>div>div:nth-child(2) {
+        @apply bg-gradient-to-b from-[var(--tw-format-e-pashtjelluara-g-from)] to-[var(--tw-format-e-pashtjelluara-g-to)] shadow-[var(--tw-format-e-pashtjelluara-g-to)];
+    }
+
+.zgjedhimi-e-forma>div>div:nth-child(2) {
+        @apply bg-gradient-to-b from-[var(--tw-zgjedhimi-e-forma-g-from)] to-[var(--tw-zgjedhimi-e-forma-g-to)] shadow-[var(--tw-zgjedhimi-e-forma-g-to)];
+    }
+
+
+
+
+
+
+}

@@ -1,0 +1,2 @@
+cd ./Tailwind
+compile.bat
