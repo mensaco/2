@@ -119,4 +119,15 @@
         --tw-mc: var(--tw-zgjedhimi-e-forma);
     }
 
+    .menyra.perkufizimi {
+        --tw-ngjyra: hsl(0, 0%, 15%); 
+        --tw-g-f: hsl(0, 0%, 90%);
+        --tw-g-t: hsl(0, 0%, 95%);
+        @apply p-3 my-5 text-[var(--tw-ngjyra)];
+    }
+
+    .menyra.perkufizimi>div:nth-child(2) {
+        @apply text-left;
+    }
+
 }

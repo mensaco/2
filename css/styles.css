@@ -652,3 +652,17 @@ video {
 .zgjedhimi-e-forma{
   --tw-mc: var(--tw-zgjedhimi-e-forma);
 }
+
+.menyra.perkufizimi {
+  --tw-ngjyra: hsl(0, 0%, 15%);
+  --tw-g-f: hsl(0, 0%, 90%);
+  --tw-g-t: hsl(0, 0%, 95%);
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  padding: 0.75rem;
+  color: var(--tw-ngjyra);
+}
+
+.menyra.perkufizimi>div:nth-child(2) {
+  text-align: left;
+}
