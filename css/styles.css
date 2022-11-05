@@ -419,14 +419,14 @@ video {
 :root {
   --tw-border-color: rgb(0 0 0 / 0.25);
   --tw-shadow-color-2: rgb(0 0 0 / 0.50);
-  --tw-deftore-h: 210;
-  --tw-habitore-h: 190;
-  --tw-lidhore-h: 150;
-  --tw-kushtore-h: 120;
-  --tw-deshirore-h: 60;
-  --tw-urdherore-h: 360;
-  --tw-format-e-pashtjelluara-h: 240;
-  --tw-zgjedhimi-e-forma-h: 90;
+  --tw-deftore: 210;
+  --tw-habitore: 190;
+  --tw-lidhore: 150;
+  --tw-kushtore: 120;
+  --tw-deshirore: 60;
+  --tw-urdherore: 360;
+  --tw-format-e-pashtjelluara: 240;
+  --tw-zgjedhimi-e-forma: 90;
 }
 
 *, ::before, ::after {
@@ -542,9 +542,9 @@ video {
 }
 
 .menyra {
-  --tw-ngjyra: hsl(var(--tw-main-color), 100%, 15%);
-  --tw-g-f: hsl(var(--tw-main-color), 100%, 90%);
-  --tw-g-t: hsl(var(--tw-main-color), 100%, 95%);
+  --tw-ngjyra: hsl(var(--tw-mc), 100%, 15%);
+  --tw-g-f: hsl(var(--tw-mc), 100%, 90%);
+  --tw-g-t: hsl(var(--tw-mc), 100%, 95%);
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
   padding: 0.75rem;
@@ -622,33 +622,33 @@ video {
 }
 
 .deftore {
-  --tw-main-color: var(--tw-deftore-h);
+  --tw-mc: var(--tw-deftore);
 }
 
 .habitore {
-  --tw-main-color: var(--tw-habitore-h);
+  --tw-mc: var(--tw-habitore);
 }
 
 .lidhore {
-  --tw-main-color: var(--tw-lidhore-h);
+  --tw-mc: var(--tw-lidhore);
 }
 
 .kushtore {
-  --tw-main-color: var(--tw-kushtore-h);
+  --tw-mc: var(--tw-kushtore);
 }
 
 .deshirore {
-  --tw-main-color: var(--tw-deshirore-h);
+  --tw-mc: var(--tw-deshirore);
 }
 
 .urdherore {
-  --tw-main-color: var(--tw-urdherore-h);
+  --tw-mc: var(--tw-urdherore);
 }
 
 .format-e-pazgjedhura{
-  --tw-main-color: var(--tw-format-e-pashtjelluara-h);
+  --tw-mc: var(--tw-format-e-pashtjelluara);
 }
 
 .zgjedhimi-e-forma{
-  --tw-main-color: var(--tw-zgjedhimi-e-forma-h);
+  --tw-mc: var(--tw-zgjedhimi-e-forma);
 }
