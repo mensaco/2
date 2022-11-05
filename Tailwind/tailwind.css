@@ -5,17 +5,10 @@
 
 @layer base {
     :root {
-        --tw-border-color: rgb(0 0 0 / 0.25);
-        --tw-shadow-color-2: rgb(0 0 0 / 0.50);
+        --tw-b-c: rgb(0 0 0 / 0.25);
+        --tw-sh-c-2: rgb(0 0 0 / 0.50);
 
-        --tw-deftore: 210;
-        --tw-habitore: 190;
-        --tw-lidhore: 150;
-        --tw-kushtore: 120;
-        --tw-deshirore: 60;
-        --tw-urdherore: 360;
-        --tw-format-e-pashtjelluara: 240;
-        --tw-zgjedhimi-e-forma: 90;
+        
     }
 }
 
@@ -38,21 +31,21 @@
     }
 
     .text-shadow {
-        text-shadow: 0px 0px 15px var(--tw-shadow-color);
+        text-shadow: 0px 0px 15px var(--tw-sh-c);
     }
 
     .text-shadow-white {
-        text-shadow: 0px 0px 15px var(--tw-shadow-color-2);
+        text-shadow: 0px 0px 15px var(--tw-sh-c-2);
     }
 
 
 
     .border-u {
-        @apply border-l border-r border-b border-[var(--tw-border-color)];
+        @apply border-l border-r border-b border-[var(--tw-b-c)];
     }
 
     .border-n {
-        @apply border-l border-r border-t border-[var(--tw-border-color)];
+        @apply border-l border-r border-t border-[var(--tw-b-c)];
     }
 
    
@@ -61,7 +54,7 @@
         --tw-ngjyra: hsl(var(--tw-mc), 100%, 15%);
         --tw-g-f: hsl(var(--tw-mc), 100%, 90%);
         --tw-g-t: hsl(var(--tw-mc), 100%, 95%);
-        @apply p-3 my-5 text-[var(--tw-ngjyra)];
+        @apply p-3 my-3 text-[var(--tw-ngjyra)];
     }
 
     .menyra>div:nth-child(1) {
@@ -82,41 +75,41 @@
     }
 
     .menyra>div:nth-child(2) {
-        @apply grid sm:flex sm:flex-wrap gap-x-3 gap-y-5 text-center my-5;
+        @apply grid sm:flex sm:flex-wrap gap-x-3 gap-y-5 text-center my-3;
     }
 
 
 
     .deftore {
-        --tw-mc: var(--tw-deftore);
+        --tw-mc: 210;
     }
 
     .habitore {
-        --tw-mc: var(--tw-habitore);
+        --tw-mc: 190;
     }
     
     .lidhore {
-        --tw-mc: var(--tw-lidhore);
+        --tw-mc: 150;
     }
     
     .kushtore {
-        --tw-mc: var(--tw-kushtore);
+        --tw-mc: 120;
     }
 
     .deshirore {
-        --tw-mc: var(--tw-deshirore);
+        --tw-mc: 60;
     }
 
     .urdherore {
-        --tw-mc: var(--tw-urdherore);
+        --tw-mc: 360;
     }
 
     .format-e-pazgjedhura{
-        --tw-mc: var(--tw-format-e-pashtjelluara);
+        --tw-mc: 240;
     }
 
     .zgjedhimi-e-forma{
-        --tw-mc: var(--tw-zgjedhimi-e-forma);
+        --tw-mc: 90;
     }
 
     .menyra.perkufizimi {
