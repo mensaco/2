@@ -1,0 +1,14 @@
+{
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": "\\.html$",
+                "cmd": ".\\RebuildTailwindCss.bat"
+            },
+            {
+                "match": "\\.css$",
+                "cmd": ".\\RebuildTailwindCss.bat"
+            }
+        ]
+    }
+}
